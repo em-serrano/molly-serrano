@@ -1,0 +1,150 @@
+.about-page {
+  /* background: linear-gradient(to bottom, #7159c8, #bf5700);; Same gradient theme */
+  background-image: url('./assets/scotland3.JPG');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  color: white; /* Ensure readability */
+  padding: 90px 0;
+  height: 100vh;
+}
+
+.about-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.content-tile {
+  background: rgba(255, 255, 255, 0.1); /* Subtle transparent white */
+  backdrop-filter: blur(15px);
+  border-radius: 12px;
+  padding: 25px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.content-tile h2 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: rgba(58, 2, 64, 0.8);
+}
+
+.content-tile span.text-muted {
+  font-size: 1.2rem;
+  color: #f8e1ff; /* Softer contrast */
+  display: block;
+  margin-bottom: 10px;
+}
+
+.content-tile p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #212529;
+}
+
+.buttons {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-top: 15px;
+}
+
+.buttons .btn {
+  background: #bf5700;
+  border: none;
+  color: #ffffff;
+  font-weight: bold;
+  padding: 10px 15px;
+  border-radius: 8px;
+  transition: 0.3s ease-in-out;
+}
+
+.buttons .btn:hover {
+  background: #d76d77;
+  color: white;
+}
+
+.image-gallery {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+
+.image-gallery img {
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease-in-out;
+}
+
+.image-gallery img:hover {
+  transform: scale(1.05);
+}
+
+
+@keyframes fadeInUp {
+  from {
+    
+    transform: translateY(20px);
+  }
+  to {
+    
+    transform: translateY(0);
+  }
+}
+
+
+.about-container{
+  animation: fadeInUp 1s ease-out;
+}
+
+@media (max-width: 768px) {
+  .row {
+    flex-direction: column;
+  }
+
+  .col-md-5, .col-md-6 {
+    width: 100%;
+  }
+
+  .content-tile {
+    text-align: center;
+  }
+
+  .image-gallery {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .image-gallery img {
+    width: 100%;
+    max-height: 250px;
+    object-fit: cover;
+  }
+
+  .about-page {
+    padding: 50px 20px; /* More padding on smaller screens */
+    height: auto; /* Allow it to expand */
+  }
+
+  .content-tile {
+    padding: 20px;
+    font-size: 1rem;
+  }
+  
+  .content-tile h2 {
+    font-size: 2rem;
+    color: #ffffff;
+  }
+
+  .content-tile span.text-muted {
+    font-size: 1rem;
+  }
+
+  .content-tile p {
+    font-size: 1rem;
+    color: #ffffff;
+
+  }
+}
