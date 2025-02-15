@@ -1,0 +1,144 @@
+/* Reset styles to avoid spacing issues */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Ensures no horizontal scrolling */
+/* html, body {
+    overflow-x: hidden;
+    width: 100%;
+} */
+
+/* Full-screen hero container */
+.hero-container {
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../assets/backgrounds/scotland3.JPG');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background: linear-gradient(to bottom, #7159c8, #bf5700); */
+}
+
+/* Responsive image handling */
+.hero-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Navbar Styles */
+
+
+.nav-links {
+    display: flex;
+    gap: 15px;
+}
+
+
+/* Primary button styles */
+.btn-primary {
+    font-family: "Inter", sans-serif;
+    font-size: 1.1rem;
+    font-weight: 500;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.2);
+    border: 1px solid rgba(58, 2, 64, 0.5);
+    color: rgba(58, 2, 64, 0.8);
+    transition: all 0.3s ease-in-out;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* Hover effect */
+.btn-primary:hover {
+    background: rgba(255, 255, 255, 0.4);
+    color: #fff;
+    border: solid 1px #ffffff;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    
+    
+    
+    .hero-container {
+        text-align: center;
+        padding: 10px;
+        color: #ffffff;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-image {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+
+    .content .btn-primary{
+        color: #ffffff;
+    }
+}
+
+.fade-in {
+  opacity: 1;
+  pointer-events: auto; /* Allow interactions when visible */
+}
+
+.fade-out {
+  opacity: 0;
+  pointer-events: none; /* Disable interactions when hidden */
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .hero-image {
+    width: 100%;
+    height: auto;
+    transition: opacity 0.5s ease-in-out;
+    animation: fadeInUp 1s ease-out;
+}
+
+.fade-in {
+    opacity: 1;
+}
+
+.fade-out {
+    opacity: 0;
+}
+
+@keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+
+.content{
+    animation: fadeInUp 1s ease-out;
+}
