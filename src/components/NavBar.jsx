@@ -41,10 +41,10 @@ const NavBar = () => {
               <Link to="/molly-serrano/" className="nav-link btn btn-primary mx-2 my-1">
                 Home
               </Link>
-              <Link to="/about" className="nav-link btn btn-primary mx-2 my-1">
+              <Link to="/molly-serrano/about" className="nav-link btn btn-primary mx-2 my-1">
                 About
               </Link>
-              <Link to="/album" className="nav-link btn btn-primary mx-2 my-1">
+              <Link to="/molly-serrano/album" className="nav-link btn btn-primary mx-2 my-1">
                 Gallery
               </Link>
               <a

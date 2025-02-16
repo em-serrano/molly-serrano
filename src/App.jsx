@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import { Routes, Route } from "react-router";
 import './App.css'
 
@@ -18,8 +17,8 @@ function App() {
     <NavBar />
     <Routes>
       <Route path="/molly-serrano/" element={<Hero />} />
-      <Route path="/about" element={<About />} />
-      <Route path="/album" element={<Album />} />
+      <Route path="/molly-serrano/about" element={<About />} />
+      <Route path="/molly-serrano/album" element={<Album />} />
     </Routes>
     <Contact />
         
