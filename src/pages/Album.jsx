@@ -2,7 +2,7 @@ import React from "react";
 import { useState } from "react";
 import Lightbox from "yet-another-react-lightbox";
 import "yet-another-react-lightbox/styles.css";
-import "/Users/miguelserrano/Projects/art-site-project/art-site/src/Album.css";
+import "../styles/Album.css";
 import image1 from "../assets/Gallery-Images/blueMug.jpg";
 import image2 from "../assets/Gallery-Images/platesAndMugsTopView.jpg";
 import image3 from "../assets/Gallery-Images/leafPlates.jpg";

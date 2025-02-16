@@ -4,6 +4,7 @@ import './App.css'
 
 // components
 import NavBar from './components/NavBar'
+import Contact from './components/Contact';
 
 //pages
 import Hero from './pages/Hero'
@@ -20,6 +21,7 @@ function App() {
       <Route path="/about" element={<About />} />
       <Route path="/album" element={<Album />} />
     </Routes>
+    <Contact />
         
       </div>
     </>

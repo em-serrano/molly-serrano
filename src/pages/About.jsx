@@ -1,4 +1,4 @@
-import "/Users/miguelserrano/Projects/art-site-project/art-site/src/About.css";
+import "../styles/About.css";
 import image1 from "/Users/miguelserrano/Projects/art-site-project/art-site/src/assets/londonBridge.jpeg";
 import image2 from "/Users/miguelserrano/Projects/art-site-project/art-site/src/assets/atBeach.jpg";
 import image3 from "/Users/miguelserrano/Projects/art-site-project/art-site/src/assets/ukFamily.jpeg";

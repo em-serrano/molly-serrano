@@ -1,6 +1,6 @@
 /* General Styling */
 .album-container {
-  background-image: url('./assets/scotland3.JPG');
+  background-image: url('../assets/backgrounds/scotland3.JPG');
   background-position: center;
   background-size: cover;
   background-attachment: fixed;

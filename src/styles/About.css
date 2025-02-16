@@ -1,6 +1,6 @@
 .about-page {
   /* background: linear-gradient(to bottom, #7159c8, #bf5700);; Same gradient theme */
-  background-image: url('./assets/scotland3.JPG');
+  background-image: url('../assets/backgrounds/scotland3.JPG');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
