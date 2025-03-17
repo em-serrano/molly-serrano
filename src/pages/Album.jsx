@@ -115,25 +115,25 @@ const Album = () => {
       <main className="album-container" role="main">
         {/* <section className=" jumbotron text-center">
           <div className="album-header container">
-          <p className="lead text-muted"> */}
-        {/* Add some description here if needed */}
-        {/* </p>
+          <p className="lead text-muted"> 
+        
+        </p>
             <p>
             <a
             href="https://getbootstrap.com/docs/4.4/examples/album/#"
             className="btn btn-primary"
             >
             Home
-            </a> */}
-        {/* <a
+            </a>
+         <a
                 href="https://getbootstrap.com/docs/4.4/examples/album/#"
                 className="btn btn-primary"
                 >
                 Secondary action
-                </a> */}
-        {/* </p>
+                </a>
+         </p>
           </div>
-          </section> */}
+          </section>  */}
         <div className="album py-5">
           {/* <div className="col-md-6">
             <h1 className="jumbotron text-center heroName display-6 fw-bold">My Pottery and Prints:</h1>

@@ -65,7 +65,7 @@ const Hero = () => {
                 {/* <button type="button" className="btn btn-primary btn-lg">
                   About Me
                 </button> */}
-                <Link to="/album" className="btn btn-primary btn-lg">
+                <Link to="/molly-serrano/album" className="btn btn-primary btn-lg">
                   View my gallery
                 </Link>
               </div>
